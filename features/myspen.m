@@ -1,4 +1,5 @@
 function out=myspen(x)
+% calculates spectral entropy
 %function [f,p,pt,pa1,pa2,pa,pb1,pb2,pb,pg]=mypsd(x)
 %sf=menu('Sampling frequency?',' 1024 Hz ','1 Hz');
 clear pt pa1 pa2 pa pb1 pb2 pb pg

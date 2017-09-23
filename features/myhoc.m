@@ -1,4 +1,5 @@
 function out=myhoc(x)
+% calculates higher order crossings
 x=x-mean(x);
 F1=x; 
 F2=F1(2:end)-F1(1:end-1); 

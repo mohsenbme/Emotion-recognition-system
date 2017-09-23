@@ -1,4 +1,5 @@
 function out=cordim(x)
+%calculates correlation dimension
 x=(x-min(x))./(max(x)-min(x));
 N=length(x);
 R=10.^[-5:0.125:0];

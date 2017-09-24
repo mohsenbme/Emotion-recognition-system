@@ -24,7 +24,7 @@ for f=1:4
 netA1=svmtrain(Xa_trn,Da_trn','Kernel_Function','rbf');
 netA2=svmtrain(Xa_trn,Da_trn','Kernel_Function','quadratic');
 netA3=svmtrain(Xa_trn,Da_trn','Kernel_Function','polynomial');
-netA4=svmtrain(Xa_trn,Da_trn','Kernel_Function','linear');
+netA4=svmtrain(Xa_trn,Da_trn','Kernel_Function','linear'); % four classifiers for decision-level fusion
 
 YA1=svmclassify(netA1,Xa_tst); YA1=round(YA1);
 YA2=svmclassify(netA2,Xa_tst); YA2=round(YA2);
